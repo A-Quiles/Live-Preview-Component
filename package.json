@@ -1,0 +1,35 @@
+{
+  "name": "live-template-preview-angular",
+  "displayName": "Live Template Preview Angular",
+  "description": "Extensión para previsualizar en tiempo real componentes Angular en VS Code",
+  "version": "1.0.0",
+  "publisher": "tu_nombre",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "livePreview.showPreview",
+        "title": "Show Live Preview"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "sass": "^1.56.0",
+    "typescript": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@types/vscode": "^1.80.0"
+  }
+}
