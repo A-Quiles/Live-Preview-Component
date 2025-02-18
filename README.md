@@ -1,12 +1,12 @@
-# Live Template Preview Angular
+# Live Component Preview Angular
 
 ## Description
 
-The **Live Template Preview Angular** extension for Visual Studio Code allows real-time preview of Angular components directly in the editor. When opening an HTML file that references a SCSS file, the extension compiles the SCSS and displays a preview of the HTML with the applied styles.
+The **Live Component Preview Angular** extension for Visual Studio Code allows real-time preview of Angular components directly in the editor. When opening an HTML file that references a SCSS file, the extension compiles the SCSS and displays a preview of the HTML with the applied styles.
 
 ## Features
 
-- **Live Preview:** Provides a real-time preview of the Angular component, reflecting changes made in the code.
+- **Live Component:** Provides a real-time preview of the Angular component, reflecting changes made in the code.
 - **SCSS Support:** Compiles SCSS files associated with the HTML and applies the corresponding styles in the preview.
 - **Integration with Bootstrap and Tailwind CSS:** Includes links to the latest versions of Bootstrap and Tailwind CSS from CDNs, allowing their classes to be used in the HTML.
 - **Automatic Updates:** The preview automatically updates when changing the active editor or modifying the current document.

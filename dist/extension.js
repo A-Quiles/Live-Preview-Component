@@ -29,10 +29,7 @@ const fs = __importStar(require("fs"));
 const sass = __importStar(require("sass"));
 function activate(context) {
     context.subscriptions.push(vscode.commands.registerCommand('livePreview.showPreview', () => {
-        const panel = vscode.window.createWebviewPanel('livePreview', // Identificador del panel
-        'Live Preview', // Título del panel
-        vscode.ViewColumn.Two, // Mostrar en la segunda columna
-        {
+        const panel = vscode.window.createWebviewPanel('livePreview', 'Live Preview', vscode.ViewColumn.Two, {
             enableScripts: true,
             retainContextWhenHidden: true,
         });
