@@ -3,7 +3,8 @@
   "displayName": "Live Component Preview Angular",
   "description": "Extensión para previsualizar en tiempo real componentes Angular en VS Code",
   "version": "1.0.0",
-  "publisher": "LiveComponentPreviewAngular",
+  "publisher": "AntonioQuiles",
+  "icon": "assets/Angular_Logo.png",
   "engines": {
     "vscode": "^1.80.0"
   },
